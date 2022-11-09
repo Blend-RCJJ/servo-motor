@@ -10,7 +10,7 @@ void setup() {
 }
 
 void loop() {
-  servo5.write(168);//0°の角度にサーボモータを動かす
+  servo5.write(168);//168°の角度にサーボモータを動かす
   digitalWrite(LED_BUILTIN,HIGH);
   delay(1000);//1000msec待機(1秒待機)
   digitalWrite(LED_BUILTIN,LOW);
